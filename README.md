@@ -4,5 +4,12 @@ The idea of this project was to create a proof of concept to check how easy it i
 
 The bar chart receives random data when on page loads and adapts sizes of each bar to the selected resolution.
 
-
 [Check on StackBlitz ⚡️](https://stackblitz.com/edit/response-d3js-v6)
+
+Examples:
+
+![Desktop screen](./img/desktop.png)
+![Mobile screen](./img/mobile.png)
+![tiny screen](./img/tiny_screen.png)
+
+
