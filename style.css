@@ -1,0 +1,22 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  border: 1px dashed rgb(0, 110, 255);
+}
+
+.bar {
+  fill: rgb(19, 161, 161);
+}
+
+.bar:nth-child(2n) {
+  fill: rgb(47, 65, 114);
+}
