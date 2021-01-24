@@ -1,15 +1,14 @@
-h1,
-h2 {
-  font-family: Lato;
-}
-
 body {
   background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  width: 90vw;
-  height: 90vh;
+  width: calc(100vw - 2px);
+  height: calc(100vh - 2px);
+  display: block;
+
   border: 1px dashed rgb(0, 110, 255);
 }
 
