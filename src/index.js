@@ -1,5 +1,3 @@
-import "./style.css";
-
 // Get random integer
 const getRandomInt = (min, max) => {
   min = Math.ceil(min);
