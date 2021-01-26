@@ -23,12 +23,7 @@ const maxWidth = element.getBoundingClientRect().width;
 const maxHeight = element.getBoundingClientRect().height;
 
 // Get max value
-const maxValue = Math.max.apply(
-  Math,
-  DUMMY_DATA.map(function(o) {
-    return o.value;
-  })
-);
+const maxValue = d3.max(DUMMY_DATA, d => d.value);
 
 const xScale = d3
   .scaleBand()
